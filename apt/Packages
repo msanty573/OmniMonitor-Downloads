@@ -1,0 +1,74 @@
+Package: mjsmonitor
+Version: 1.1.3-1
+Architecture: arm64
+Maintainer: MJS Applications <support@mjsapps.net>
+Installed-Size: 231855
+Depends: libc6 (>= 2.43), libfontconfig1, libfreetype6, libxkbcommon0, libxkbcommon-x11-0, libxcb-cursor0, libxcb-icccm4, libxcb-keysyms1, libegl1, libgl1, hicolor-icon-theme
+Breaks: omnimonitor (<< 1.1.3-1)
+Replaces: omnimonitor (<< 1.1.3-1)
+Filename: ./mjsmonitor-1.1.3-1.ubuntu.arm64.deb
+Size: 67195932
+MD5sum: a4c0fe6008a9450ea55b061ca415ed13
+SHA1: bd56e1cdad94cd6e25d08fe107534d670ac87627
+SHA256: 4e992ed48c49c7ecb0252ad15944d82743ec83caa4a69ca93be845f6465ddc05
+Section: net
+Priority: optional
+Homepage: https://mjsapps.net/mjsmonitor/
+Description: Watch your servers, services and websites
+ MJSMonitor checks the devices, services and websites you choose and shows
+ each one red, yellow or green, alerts you by notification, email, Teams,
+ Slack, Discord or ntfy when something goes down, and keeps the history.
+
+Package: mjsmonitor
+Version: 1.1.3-1
+Architecture: amd64
+Maintainer: MJS Applications <support@mjsapps.net>
+Installed-Size: 227113
+Depends: libc6 (>= 2.43), libfontconfig1, libfreetype6, libxkbcommon0, libxkbcommon-x11-0, libxcb-cursor0, libxcb-icccm4, libxcb-keysyms1, libegl1, libgl1, hicolor-icon-theme
+Breaks: omnimonitor (<< 1.1.3-1)
+Replaces: omnimonitor (<< 1.1.3-1)
+Filename: ./mjsmonitor-1.1.3-1.ubuntu.amd64.deb
+Size: 71205284
+MD5sum: 4c60ebeb40a9e01af9744ab916dfd98b
+SHA1: 4ae5f7fb255feb4cb37c28c5ad945a9427251716
+SHA256: 4f0255c93877bcfe0a374471a22b58bde4412b847231f4894e631e024e6d4aca
+Section: net
+Priority: optional
+Homepage: https://mjsapps.net/mjsmonitor/
+Description: Watch your servers, services and websites
+ MJSMonitor checks the devices, services and websites you choose and shows
+ each one red, yellow or green, alerts you by notification, email, Teams,
+ Slack, Discord or ntfy when something goes down, and keeps the history.
+
+Package: omnimonitor
+Version: 1.1.3-1
+Architecture: arm64
+Maintainer: MJS Applications <support@mjsapps.net>
+Depends: mjsmonitor (= 1.1.3-1)
+Filename: ./omnimonitor-1.1.3-1.ubuntu.arm64.deb
+Size: 804
+MD5sum: 8af3460aa3550606af526201511d90a4
+SHA1: 6150f2e276792f1c5ab352f1c00fe7e0a0475edf
+SHA256: e9a97d8b22681aa41d7d566bc925c4ac7246d46860ce3a6787f87b3018ae499c
+Section: oldlibs
+Priority: optional
+Homepage: https://mjsapps.net/mjsmonitor/
+Description: transitional package: OmniMonitor is now MJSMonitor
+ OmniMonitor was renamed MJSMonitor. This empty package installs MJSMonitor and can be removed.
+
+Package: omnimonitor
+Version: 1.1.3-1
+Architecture: amd64
+Maintainer: MJS Applications <support@mjsapps.net>
+Depends: mjsmonitor (= 1.1.3-1)
+Filename: ./omnimonitor-1.1.3-1.ubuntu.amd64.deb
+Size: 804
+MD5sum: a7d319f22e2c5fa99c79c24b3cbe14ae
+SHA1: 6a2f31877fee294a2ac5c3bd4e1c99dd2e716a66
+SHA256: e411e555bc335c7adfc143e46fc662756374efa984477495393769ab1ec07b2d
+Section: oldlibs
+Priority: optional
+Homepage: https://mjsapps.net/mjsmonitor/
+Description: transitional package: OmniMonitor is now MJSMonitor
+ OmniMonitor was renamed MJSMonitor. This empty package installs MJSMonitor and can be removed.
+
